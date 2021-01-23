@@ -10,7 +10,7 @@ import UIKit
 
 
 // BOSS == PROTOCAL >> always write the protocol outside the class and above the class
-// : AnyObject >> Always write : AnyObject, when create protocol
+// : AnyObject >> Always write : AnyObject, when create protocol because it know who will delegate.
 
 // 1) Create the protocol (BOSS)
 protocol SettingCellDelegate: AnyObject {
